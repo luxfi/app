@@ -1,0 +1,4 @@
+[submodule "desktop"]
+	path = desktop
+	url = https://github.com/hanzoai/desktop.git
+	branch = main

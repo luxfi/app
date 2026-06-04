@@ -1,0 +1,13 @@
+{
+  "name": "@luxfi/app",
+  "private": true,
+  "description": "Lux Desktop & Mobile — thin brand wrapper over hanzoai/desktop (VITE_BRAND=lux)",
+  "scripts": {
+    "init": "git submodule update --init --recursive && pnpm -C desktop install",
+    "dev": "VITE_BRAND=lux pnpm -C desktop nx serve hanzo-desktop",
+    "build": "VITE_BRAND=lux pnpm -C desktop nx build hanzo-desktop",
+    "tauri:build": "VITE_BRAND=lux pnpm -C desktop --filter hanzo-desktop tauri build",
+    "android": "VITE_BRAND=lux pnpm -C desktop --filter hanzo-desktop tauri android build",
+    "ios": "VITE_BRAND=lux pnpm -C desktop --filter hanzo-desktop tauri ios build"
+  }
+}
