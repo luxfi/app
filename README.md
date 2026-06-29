@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="app" width="880"></p>
+
 # @luxfi/app — Lux Desktop & Mobile
 
 **Thin brand wrapper.** The Lux app *is* [`hanzoai/desktop`](https://github.com/hanzoai/desktop)
